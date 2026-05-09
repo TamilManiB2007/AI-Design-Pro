@@ -1,0 +1,145 @@
+Act as a Full-Stack Product Architect and Creative Director. Build a multi-page React application (using Tailwind CSS and Lucide-react) for 'SENTINEL-G'—designed to be the superior alternative to MuleHunter.AI.
+
+
+
+### 1. BRANDING & AESTHETIC (STRICT):
+
+- Design Language: 'Stone & Rust' Enterprise. 
+
+- Colors: Stone-50 (BG), Rust-Orange (#C2410C), Charcoal (#1C1917), Sage Green.
+
+- Layout: Modern, spacious, high-trust banking interface.
+
+
+
+### 2. PAGE STRUCTURE (MANDATORY):
+
+
+
+#### PAGE A: LANDING PAGE (The 'MuleHunter Killer' Pitch)
+
+- Hero Section: High-impact headline: "Adaptive Forensic Intelligence for the New Era of Mule Fraud."
+
+- The 'Moat' Section: A 5-card grid explicitly calling out our Gaps vs competitors (Explainability, Onboarding-Gate, Graph Topologies, Dynamic Thresholds, Adaptive Rules).
+
+- Engine Showcase: A visual summary of our 24 features (PAMRS, Merkle Ledger, NLP Similarity, etc.).
+
+
+
+#### PAGE B: CORE COMMAND CENTER (The Dashboard)
+
+- Use a 3-column layout based on the 'Replit/Google Studio' high-density logic.
+
+- Include: 6-Detector Scorecards, Live Merkle Ledger Feed, NLP Remark Analyst, and the 'A-B-C-A' Circular Flow Graph.
+
+- Side Panel: THE FORENSIC AI EXPLAINER (Gap-3 Solver).
+
+
+
+#### PAGE C: COMPLIANCE DOCS & REGULATORY MAP
+
+- Technical documentation explaining the 'Sentinel-G Rule Engine'.
+
+- A 'Regulatory Alignment' table showing mapping to FIU-IND, FATF, and FinCEN red-flags.
+
+
+
+#### PAGE D: TEAM & AUDIT INTEGRITY
+
+- Team profile section.
+
+- Ledger Verification utility to check Merkle-chain hashes.
+
+
+
+### 3. GLOBAL NAVIGATION:
+
+- Persistent Header with links: [Dashboard, Intelligence, Documentation, Team].
+
+- Action Buttons: [Generate FIU-IND STR] and [Zero-PII Toggle].
+
+
+
+### 4. TECHNICAL EXECUTION:
+
+- Use React State to handle page navigation (conditional rendering) within a SINGLE App.jsx to ensure zero-loss of data context.
+
+- Ensure all 24 features from Round 1, 2, and 3 are visually represented across these pages.
+
+- Provide the COMPLETE code in one massive, production-ready React block.
+
+
+
+
+
+Act as a Lead Product Engineer at a Tier-1 FinTech firm. Your task is to build a high-fidelity React (Tailwind) Dashboard for 'SENTINEL-G'—a system designed to be a superior, explainable clone/competitor to MuleHunter.AI.
+
+
+
+CRITICAL REQUIREMENT: You MUST visually represent EVERY SINGLE ONE of the following 24 features across the UI. Do not collapse them. I need a complex, data-dense, enterprise-grade interface.
+
+
+
+### CORE ARCHITECTURE & THEME:
+
+- Aesthetic: Strict 'Stone & Rust' Enterprise look. Background: #FAFAFA (Stone-50). Accents: Deep Orange (Rust), Sage Green, Charcoal.
+
+- Layout: 3-Column Command Center (Left: Global Nav | Center: Deep Analytics | Right: AI Investigator).
+
+
+
+### FEATURE LIST TO IMPLEMENT VISUALLY:
+
+
+
+ROUND 1 & 2 (THE ENGINE):
+
+1. SIX-DETECTOR STATUS: Visual indicators for Structuring, Velocity, Network/Graph, PEP, Jurisdiction, and KYC.
+
+2. WEIGHTED RISK SCORER: A combined score card showing aggregation logic.
+
+3. PAMRS ONBOARDING GATE: A dedicated 'Pre-Activation' scanner for Device IDs, Pincodes, and Network Proximity.
+
+4. DYNAMIC THRESHOLD TUNER: A slider/input to update global detection limits.
+
+5. STR GENERATOR: A 'Generate FIU-IND Report' button with a status queue.
+
+6. MERKLE AUDIT LEDGER: A scrolling feed of SHA-256 block hashes (e.g., 8f2d...4a12) proving immutability.
+
+7. TRANSACTION LIST: A dense table with risk-distribution tags and filters.
+
+8. NETWORK GRAPH: A canvas area showing Circular Flow detection (A->B->C->A).
+
+9. NLP REMARK ANALYST: A list of recent transaction remarks with similarity % (e.g., "Urgent Crypto" - 94% Match).
+
+10. LIVE STREAMING PIPELINE: A "Live Feed" status bar showing background synthetic data generation.
+
+11. ALERT SURFACE: A notification center for Weighted-Risk and NLP Similarity alerts.
+
+12. HEALTH CHECK MONITOR: A small 'System Vitals' panel showing engine uptime.
+
+
+
+ROUND 3 (THE MULEHUNTER KILLER GAPS):
+
+13. ADAPTIVE PATTERN EVOLUTION: A 'New Pattern Detected' alert box (solving Gap 1).
+
+14. ZERO-PII PRIVACY TOGGLE: A switch to mask names to 'Entity_Masked' for compliance.
+
+15. THE AI EXPLAINER (THE KILLER FEATURE): A forensic chat terminal on the right. It must stream a detailed 'WHY' analysis for a selected account, explaining hidden links.
+
+16. EMERGENCY CIRCULAR BUTTON: A prominent 'RBI Emergency Override' button to drop thresholds by 30% instantly.
+
+17. JURISDICTIONAL MAPPING: A map/text indicator of FATF/FinCEN red-flag alignment.
+
+18. MAKER-CHECKER WORKFLOW: Buttons for 'Request Checker Approval' and 'Authorize Freeze'.
+
+
+
+TECHNICAL INSTRUCTION:
+
+- Use 'lucide-react' for all 24 feature icons.
+
+- Avoid all blue and slate colors. Use only Stone, Rust, and Sage.
+
+- Generate a SINGLE, massive App.jsx file containing the complete logic and styling to ensure no features are lost in modularization.

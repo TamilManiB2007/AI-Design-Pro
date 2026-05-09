@@ -1,45 +1,57 @@
-# [Project name]
+# SENTINEL-G
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A Next-Gen Pro Max enterprise mule fraud detection platform — the superior alternative to MuleHunter.AI. Built with "Stone & Rust" branding, all 24 detection features, and a 3-column forensic command center.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
+- `pnpm --filter @workspace/sentinel-g run dev` — run the SENTINEL-G frontend (port 19264)
+- `pnpm --filter @workspace/api-server run dev` — run the API server (port 8080)
 - `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
 
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- React + Vite (frontend, no backend required — all synthetic data)
+- Tailwind CSS with Stone & Rust custom theme
+- Lucide-react for all icons
+- Wouter for client-side routing
+- Framer Motion + CSS animations for typewriter / live feed effects
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/sentinel-g/src/App.tsx` — root app, page state, Zero-PII toggle, STR button
+- `artifacts/sentinel-g/src/components/Navigation.tsx` — persistent header
+- `artifacts/sentinel-g/src/pages/LandingPage.tsx` — hero, moat cards, 24-feature showcase
+- `artifacts/sentinel-g/src/pages/Dashboard.tsx` — 3-column command center with all 24 features
+- `artifacts/sentinel-g/src/pages/Documentation.tsx` — rule engine docs + regulatory alignment table
+- `artifacts/sentinel-g/src/pages/Team.tsx` — team profiles + Merkle verification utility
+- `artifacts/sentinel-g/src/index.css` — Stone & Rust CSS custom properties theme
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Single-page React app with React useState navigation (no URL routing needed for page switching)
+- All data is synthetic — no backend required, realistic fake arrays hardcoded in components
+- Zero-PII is global state in App.tsx, passed down to Dashboard which masks account names
+- Merkle ledger uses SHA-256 style hash strings for visual authenticity
+- Typewriter animation in AI Forensic Explainer uses useEffect + setTimeout character-by-character streaming
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+SENTINEL-G is a multi-page enterprise fraud detection command center:
+- **Page A (Landing)**: Hero, MuleHunter.AI gap analysis (5 moat cards), 24-feature engine showcase
+- **Page B (Dashboard)**: 3-column command center — Six Detectors, Weighted Risk, PAMRS, Dynamic Thresholds, Emergency Override | Transaction Table, Circular Flow Graph, NLP Analyst, Merkle Ledger | AI Forensic Explainer, Alert Surface, Maker-Checker, STR Queue, Jurisdictional Mapping
+- **Page C (Documentation)**: Rule engine docs, regulatory alignment table (FIU-IND/FATF/FinCEN/Basel)
+- **Page D (Team)**: Team profiles, Merkle verification utility
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- "Stone & Rust" enterprise aesthetic — stone-50 bg, #C2410C rust-orange accent, charcoal text, sage green secondary
+- No blue or slate colors anywhere
+- 24 features must all be visually represented
+- Data-dense, enterprise-grade, classified-operations-room feel
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- No DATABASE_URL needed — this is a frontend-only app with synthetic data
+- The Emergency Override button has a 2-step confirmation flow — first click shows confirm dialog
+- Typewriter animation auto-starts when a transaction row is clicked in the Dashboard
