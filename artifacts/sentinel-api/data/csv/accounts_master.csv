@@ -1,0 +1,21 @@
+account_id,account_name,account_type,status,city,latitude,longitude,kyc_level,is_pep,open_date,ifsc_code,branch
+ACC001,Rajesh Kumar Sharma,Savings,Active,Mumbai,19.063454,72.922771,Low,FALSE,2020-05-02,IOB024592,Mumbai
+ACC002,Priya Nair Investments,Current,Active,Delhi,28.727299,77.112366,Medium,FALSE,2023-10-12,IOB046048,Delhi
+ACC003,Nexus Trade LLC,Business,Active,Chennai,13.048302,80.236299,Low,FALSE,2022-07-19,IOB039256,Chennai
+ACC004,Vijay Reddy (PEP),Savings,Flagged,Hyderabad,17.340808,78.523318,High,TRUE,2023-02-20,IOB023434,Hyderabad
+ACC005,Anita Desai Foundation,Trust,Flagged,Pune,18.530512,73.877507,High,TRUE,2020-02-16,IOB081482,Pune
+ACC006,FastCash Fintech,Business,Active,Bangalore,12.923658,77.641591,Medium,FALSE,2023-06-07,IOB087397,Bangalore
+ACC007,Kiran Mehta,Savings,Active,Kolkata,22.605844,88.335134,Low,FALSE,2021-07-21,IOB014165,Kolkata
+ACC008,Shree Exports Pvt Ltd,Current,Active,Surat,21.138382,72.79944,Medium,FALSE,2023-10-02,IOB022280,Surat
+ACC009,Digital Ventures Co,Business,Suspended,Ahmedabad,23.002924,72.573876,Low,FALSE,2022-09-11,IOB040495,Ahmedabad
+ACC010,Ramesh Gupta,Savings,Active,Jaipur,26.905595,75.766423,Low,FALSE,2021-02-01,IOB088907,Jaipur
+ACC011,Lakshmi Textiles,Current,Active,Lucknow,26.857885,80.910149,High,FALSE,2023-10-09,IOB083563,Lucknow
+ACC012,Suresh Traders,Business,Active,Kanpur,26.429114,80.318536,Medium,FALSE,2022-10-21,IOB095181,Kanpur
+ACC013,Northern Finance Ltd,Current,Active,Delhi,28.699707,77.131018,High,FALSE,2019-12-27,IOB081426,Delhi
+ACC014,Meena Kumari,Savings,Active,Mumbai,19.045967,72.879123,Medium,FALSE,2021-07-26,IOB038893,Mumbai
+ACC015,Global Import House,Business,Active,Chennai,13.091941,80.225345,High,FALSE,2021-05-27,IOB087236,Chennai
+ACC016,PEP_NODE_01,Savings,Watchlist,Delhi,28.714854,77.069552,High,TRUE,2022-05-12,IOB010851,Delhi
+ACC017,PEP_NODE_02,Current,Watchlist,Mumbai,19.032505,72.922589,High,TRUE,2019-08-31,IOB030926,Mumbai
+ACC018,Arun Logistics,Business,Active,Hyderabad,17.431563,78.51754,Low,FALSE,2020-01-03,IOB065392,Hyderabad
+ACC019,Deepika Savings,Savings,Active,Bangalore,12.952061,77.554367,Medium,FALSE,2022-01-05,IOB046421,Bangalore
+ACC020,Metro Traders Corp,Current,Active,Kolkata,22.591023,88.357915,Medium,FALSE,2023-01-18,IOB038221,Kolkata

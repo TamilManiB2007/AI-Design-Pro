@@ -1,0 +1,6 @@
+entity_id,name,account_id,designation,risk_level,jurisdiction,listed_date,source
+PEP001,Vijay Reddy,ACC004,Former State Minister,Critical,Telangana,2023-03-15,ED_Watchlist
+PEP002,Anita Desai,ACC005,Municipal Corporation Chair,High,Maharashtra,2023-07-22,CBI_Watchlist
+PEP003,PEP_NODE_01 Proxy,ACC016,Political Party Treasurer,Critical,Delhi,2022-11-01,RBI_CRILC
+PEP004,PEP_NODE_02 Proxy,ACC017,Offshore Nominee Director,High,Maharashtra,2023-01-10,FATF_List
+PEP005,Sanjay Rao,ACC009,Suspended Bureaucrat,Medium,Gujarat,2024-02-28,ED_Watchlist
